@@ -15,7 +15,8 @@ return [
     "About Volt" => "About Volt",
     "Partners" => "Partners",
     "Support" => "Support",
-    "About Us" => "About Us", 
+    "About Us" => "About Us",
+    "About Volt" => "About Volt",
     "Contact" => "Contact",
     "Buy Now" => "Buy Now",
     "Menu" => "Menu",
@@ -28,7 +29,7 @@ return [
     "New customers" => "New customers",
     "Customer Support" => "Customer Support",
     "Address" => "Address",
-    "All Rights reserved Volt © :year" => "All Rights reserved Volt Financial Services © :year",
+    "All Rights reserved Volt © :year" => "All Rights reserved Volt © :year",
 
 // ________ Index Landing ________
 
