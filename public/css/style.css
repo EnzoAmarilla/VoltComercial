@@ -758,12 +758,19 @@ ul, li, a {
 .title-hero-lead {
     font-family: "Montserrat", sans-serif;
     color: #231F20;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 3.84px;
+}
+
+.h4-title-hero-lead{
+    /* display: flex; */
+    width: 75%;
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
 
 .items-flex-lead {

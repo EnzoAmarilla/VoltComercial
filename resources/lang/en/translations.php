@@ -123,4 +123,31 @@ return [
         "I agree" => "I agree",
 
 // ________ END Contact form ________
+
+
+
+// Index - HERO TEXT
+
+    // Hero Text
+    "hero-text-title-index" => "Why going solar",
+    "hero-text-description-index" => "Many reason to go solar!",
+
+    // Hero lead
+    "title-hero-lead-index" => "Economic Reason",
+    "item-hero-lead-index-1" => "Significant Financial Benefits",
+    "item-hero-lead-index-2" => "Current Tax Incentives",
+    "item-hero-lead-index-3" => "ITC Tradeable or Carry fwd 22yr",
+    "item-hero-lead-index-4" => "Green Marketing",
+    "item-hero-lead-index-5" => "Power Outage Protection",
+    "item-hero-lead-index-6" => "Future regulations",
+
+    // Banner section 1
+    "banner-section-title-index-1" => "Our Value Proposition",
+    "banner-section-title-index-2" => "Our Offer",
+
+    // Banner Footer 1
+    "banner-footer-title-index" => "Become energy independent",
+    "banner-footer-text-index" => "Solar and energy efficiency for your home and your business.",
+    "banner-footer-button-index" => "I want to know more",
+    
 ];
