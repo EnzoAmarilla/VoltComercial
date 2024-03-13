@@ -1,20 +1,23 @@
 <div class="section-xs">
-    <div class="container-fluid p-0">
-        <div class="d-flex flex-wrap align-items-center justify-content-{{ $justify }}">
-            <div class="col-lg-6 col-md-12 img-center-md text-center p-0-img {{ $order }} {{ $m0auto }} ">
-                <img class="d-none d-sm-block lazyload {{ $mleft }} {{ $mright }} {{ $img0auto }}" data-src="{{ asset($imagen) }}" alt="">
-                {{-- <img class="d-block d-sm-none m-0-auto lazyload" data-src="{{ asset($imagen_sm) }}" alt=""> --}}
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <div class="col-lg-6 col-md-12 img-center-md text-center">
+                <img class="d-none d-sm-block lazyload" data-src="{{ asset($imagen) }}" alt="">
             </div>
             <div class="col-lg-5 col-md-8 col-sm-8 hero-lead-div-text hero-div-flex">
-                {{-- <div><img src="{{ asset($icon_text) }}" alt=""></div> --}}
-                <h4 class="title-hero-lead white-space h4-title-hero-lead">
-                    <img class="mb-3" src="{{ asset($icon_text) }}" alt="">
-                    {{ $hero_lead_titulo }}
-                </h4>
                 <ul class="items-flex-lead">
-                    @foreach ($hero_lead_items as $item)
-                        <li class="items-hero-lead"><img class="margin-right-10 lazyload" data-src="{{asset('images/Icons/tick.png')}}" alt=""><p>{{ $item }}</p></li>
-                    @endforeach
+                    <li class="items-hero-lead">
+                        <img class="margin-right-10 lazyload" data-src="{{ asset('images/Icons/tick.png') }}" alt="">
+                        <h6 class="font-weight-700">Solar is growing 22% every year in the last decade in the US.</h6>
+                    </li>
+                    <li class="items-hero-lead">
+                        <img class="margin-right-10 lazyload" data-src="{{ asset('images/Icons/tick.png') }}" alt="">
+                        <h6 class="font-weight-700">In 2023, every 39 seconds a new solar project was installed in the US.</h6>
+                    </li>
+                    <li class="items-hero-lead">
+                        <img class="margin-right-10 lazyload" data-src="{{ asset('images/Icons/tick.png') }}" alt="">
+                        <h6 class="font-weight-700">In 2023, solar energy accounted for 53% of all new power generating capacity added.</h6>
+                    </li>
                 </ul>
             </div>
         </div>

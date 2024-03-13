@@ -27,12 +27,6 @@
                         <li><a href="https://www.linkedin.com/company/volt-solar-energy/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="https://twitter.com/VoltSolarEnergy" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
                     </ul> --}}
-                    <div class="d-flex align-items-center mt-5">
-                        <img class="mr-3" src="{{ asset('images/Icons/Gear.png') }}" alt="">
-                        <h3 class="m-0">Engineering & Support Services</h3>
-                    </div>
-                    <p class="margin-top-20">@lang('translations.Phone'): +1 (786) 321 5117</p>
-                    <p class="margin-top-10">@lang('translations.Address'): 801 Brickell Ave. Suite 817 Miami, FL 33131</p>
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->

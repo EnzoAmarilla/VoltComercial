@@ -1,11 +1,8 @@
 <section class="container">
-    <div class="section-xs">
-        <div class="row justify-content-center">
+    <div class="section-md">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2 class="title-hero-black">{{ $hero_titulo }}<span class="yellow-text">?</span></h2>
-            </div>
-            <div class="col-lg-10 col-md-12 col-sm-12">
-                <h6 class="text-hero-2">{{ $hero_texto }}</h6>
+                <h2 class="title-hero-black">The Energy of the Future<span class="yellow-text">!</span></h2>
             </div>
         </div>
     </div>

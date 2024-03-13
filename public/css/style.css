@@ -11,7 +11,13 @@
 
 ul, li, a {
     font-family: "Montserrat", sans-serif;
-} 
+}
+
+.container-header {
+    position: relative;
+    padding: 0px 105px;
+    text-align: center !important;
+}
 
 .text-privacy {
     color: #FFF;
@@ -106,6 +112,10 @@ ul, li, a {
     padding-left: 5px;
 }
 
+.pl-55 {
+    padding-left: 55px !important;
+}
+
 .pl-100 {
     padding-left: 100px;
 }
@@ -173,6 +183,7 @@ ul, li, a {
 
 .yellow-text {
     color: #FEBE10 !important;
+    font-size: 38px;
 }
 
 .text-white-tv{
@@ -827,7 +838,11 @@ ul, li, a {
 }
 
 .items-hero-lead img {
-    height: 24px !important;
+    height: 45px !important;
+}
+
+.items-hero-lead .dot {
+    height: 7px !important;
 }
 
 .items-hero-lead p {
@@ -2186,8 +2201,12 @@ to {
         line-height: 48px;
     }
 
-    .header:not(.left):not(.center) .header-menu {
+    /* .header:not(.left):not(.center) .header-menu {
         margin: 0 auto;
+    } */
+
+    .header:not(.left):not(.center) .header-menu {
+        margin: 0 90px;
     }
 }
 

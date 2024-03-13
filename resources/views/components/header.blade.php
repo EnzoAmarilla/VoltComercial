@@ -1,5 +1,5 @@
 <div class="header absolute-light sticky">
-    <div class="container">
+    <div class="container-header">
         <!-- Logo -->
         <div class="header-logo">
             <a href="/">
@@ -13,10 +13,19 @@
                     <a class="nav-link" href="#">@lang('translations.Menu')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/">Projects</a>
+                    <a class="nav-link nldt" href="/">@lang('translations.About Us')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/">@lang('translations.About Volt')</a>
+                    <a class="nav-link nldt" href="/">Why going solar</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                    <a class="nav-link nldt" href="/">Our solutions</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                    <a class="nav-link nldt" href="/">Our projects</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                    <a class="nav-link nldt" href="/">Work with us</a>
                 </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">@lang('translations.Contact')</a>
@@ -33,7 +42,7 @@
         </div>
 
         <!-- Menu Extra -->
-        <div class="header-menu-extra">
+        {{-- <div class="header-menu-extra">
             <ul class="list-inline d-flex justify-content-center align-items-center">
                 <li class="nav-item">
                     <a class="nav-link button-circle button-circle-white-3" href="/locale/{{ App::currentLocale() == 'en' ? 'es' : 'en' }}">
@@ -45,7 +54,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> --}}
         <!-- Menu Toggle -->
         <button class="header-toggle">
             <span></span>
