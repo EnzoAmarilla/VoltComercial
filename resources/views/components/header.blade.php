@@ -13,10 +13,10 @@
                     <a class="nav-link" href="#">@lang('translations.Menu')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/">@lang('translations.About Us')</a>
+                    <a class="nav-link nldt" href="/about-us">@lang('translations.About Us')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/">Why going solar</a>
+                    <a class="nav-link nldt" href="/why-going-solar">Why going solar</a>
                 </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="/">Our solutions</a>
