@@ -19,6 +19,11 @@ ul, li, a {
     text-align: center !important;
 }
 
+.map-container, .dna-container {
+    position: relative;
+    padding: 0px 130px;
+}
+
 .text-privacy {
     color: #FFF;
 
@@ -112,6 +117,10 @@ ul, li, a {
     padding-left: 5px;
 }
 
+.pl-40 {
+    padding-left: 40px !important;
+}
+
 .pl-55 {
     padding-left: 55px !important;
 }
@@ -150,6 +159,10 @@ ul, li, a {
     /* justify-content: center; */
     /* align-items: center; */
     background-color: rgba(35, 31, 32, 0.90);
+}
+
+.bg-grey {
+    background-color: #8D8D8D;
 }
 
 .title-form {
@@ -683,6 +696,16 @@ ul, li, a {
     letter-spacing: 3.84px;
 }
 
+.title-cert-black {
+    color: #231F20;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.84px;
+}
+
 .title-hero-red {
     color: #E14942;
     text-align: center;
@@ -839,6 +862,10 @@ ul, li, a {
 
 .items-hero-lead img {
     height: 45px !important;
+}
+
+.items-ab-map img {
+    height: 42px !important;
 }
 
 .items-hero-lead .dot {
@@ -1549,6 +1576,12 @@ to {
         line-height: 30px;
         padding: 8px;
     }
+
+    /* .h6-medium {
+        font-weight: 700 !important;
+        line-height: 30px !important;
+        padding: 8px !important;
+    } */
 
     .text-center-sm {
         text-align: center !important;

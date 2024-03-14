@@ -14,3 +14,5 @@ Route::get('/locale/{locale}', function ($locale) {
     session()->put('locale', $locale);
     return redirect()->back();
 });
+
+Route::get('/about-us', function () { return view('about-us'); });
