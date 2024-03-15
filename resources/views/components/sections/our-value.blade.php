@@ -5,7 +5,7 @@
             
             <!-- Snippet 1 -->
             <div class="hoverbox-9 mr-2">
-                <img src="{{ $img1 }}" class="zoom-img">
+                <img src="{{ $img1 }}" class="zoom-img br-4">
                 <div class="content">
                     <span class="font-family-tertiary text-white font-weight-bold card-txt margin-0">Design</span>
                 </div>
@@ -14,7 +14,7 @@
 
             <!-- Snippet 2 -->
             <div class="hoverbox-9 mr-2">
-                <img src="{{ $img2 }}" class="zoom-img">
+                <img src="{{ $img2 }}" class="zoom-img br-4">
                 <div class="content">
                     <span class="font-family-tertiary font-weight-bold card-txt margin-0">Permitting</span>
                 </div>
@@ -23,7 +23,7 @@
 
             <!-- Snippet 3 -->
             <div class="hoverbox-9 mr-2">
-                <img src="{{ $img3 }}" class="zoom-img">
+                <img src="{{ $img3 }}" class="zoom-img br-4">
                 <div class="content">
                     <span class="font-family-tertiary font-weight-bold card-txt margin-0">Construction</span>
                 </div>
@@ -32,7 +32,7 @@
 
             <!-- Snippet 4 -->
             <div class="hoverbox-9 mr-2">
-                <img src="{{ $img4 }}" class="zoom-img">
+                <img src="{{ $img4 }}" class="zoom-img br-4">
                 <div class="content">
                     <span class="font-family-tertiary font-weight-bold card-txt margin-0">Connection</span>
                 </div>
@@ -41,7 +41,7 @@
 
             <!-- Snippet 5 -->
             <div class="hoverbox-9 mr-2">
-                <img src="{{ $img5 }}" class="zoom-img">
+                <img src="{{ $img5 }}" class="zoom-img br-4">
                 <div class="content">
                     <span class="font-family-tertiary font-weight-bold card-txt margin-0">Monitoring</span>
                 </div>
@@ -50,7 +50,7 @@
 
             <!-- Snippet 6 -->
             <div class="hoverbox-9">
-                <img src="{{ $img6 }}" class="zoom-img">
+                <img src="{{ $img6 }}" class="zoom-img br-4">
                 <div class="content">
                     <span class="font-family-tertiary font-weight-bold card-txt margin-0">Financing</span>
                 </div>
