@@ -25,7 +25,7 @@
                     <a class="nav-link nldt" href="/">Our projects</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/">Work with us</a>
+                    <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-work-with-us">Work with us</a>
                 </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">@lang('translations.Contact')</a>

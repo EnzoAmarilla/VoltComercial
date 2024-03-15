@@ -39,6 +39,10 @@ ul, li, a {
     color: #FFF
 }
 
+.yellow-color{
+    color: #FEBE10 !important;
+}
+
 .pbrem {
     padding-bottom: 0.3rem !important;
 }
