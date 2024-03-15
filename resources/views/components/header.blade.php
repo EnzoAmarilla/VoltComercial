@@ -19,7 +19,7 @@
                     <a class="nav-link nldt" href="/why-going-solar">Why going solar</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/">Our solutions</a>
+                    <a class="nav-link nldt" href="/our-solutions">Our solutions</a>
                 </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="/">Our projects</a>
@@ -28,8 +28,16 @@
                     <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-work-with-us">Work with us</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">@lang('translations.Contact')</a>
+                    <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">Contact Us</a>
                 </li>
+                {{-- <li class="nav-item nav-item-header">
+                    <a class="nav-link nldt" href="#">Contact</a>
+                    <ul class="nav-dropdown">
+                        <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="#">Book a consultation</a></li>
+                        <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="#">Request for a quote</a></li>
+                        <li class="nav-dropdown-item"><a class="nav-dropdown-link" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">Contact Us</a></li>
+                    </ul>
+                </li> --}}
                 {{-- <div class="mobile-buy-now-my-voit">
                     <li class="nav-item">
                         <button class="nav-link yellow-text" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-buy-now">@lang('translations.Buy Now')</button>

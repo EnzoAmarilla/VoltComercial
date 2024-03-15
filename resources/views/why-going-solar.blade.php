@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title') Volt Comercial - Why Going Solar @endsection
+@section('title')Why Going Solar @endsection
 
 @section('content')
 

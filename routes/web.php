@@ -9,6 +9,7 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/index', 'index');
     Route::get('/about-us', 'about_us');
     Route::get('/why-going-solar', 'why_going_solar');
+    Route::get('/our-solutions', 'our_solutions');
 });
 
 // Locale

@@ -4759,9 +4759,8 @@ div[class^="hoverbox"] img {
   position: absolute;
   z-index: 2;
   display: inline-block;
-  background: #fff;
   padding: 10px 16px;
-  color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
 }
 
 .hoverbox-8 .content h1, .hoverbox-8 .content h2, .hoverbox-8 .content h3, .hoverbox-8 .content h4, .hoverbox-8 .content h5, .hoverbox-8 .content h6,
@@ -4806,8 +4805,8 @@ div[class^="hoverbox"] img {
 }
 
 .hoverbox-9 .content {
-  top: 16px;
-  left: 16px;
+  top: 85px;
+  left: 26px;
 }
 
 .hoverbox-10 .content {

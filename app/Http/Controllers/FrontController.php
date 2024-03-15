@@ -25,6 +25,11 @@ class FrontController extends Controller
         return view('/why-going-solar');
     }
 
+    public function our_solutions()
+    {
+        return view('/our-solutions');
+    }
+
     public function contact_form(Request $request)
     {
         $data = $request->all();
